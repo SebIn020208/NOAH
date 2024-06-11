@@ -161,13 +161,13 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         // 포화도에 따라 마커 색상 설정
-        if (trashValue >= 0 && trashValue <= 30) {
+        if (trashValue <= 100 && trashValue >= 45) {
             marker.setIconTintColor(Color.GREEN);
-        } else if (trashValue > 30 && trashValue <= 60) {
+        } else if (trashValue < 45 && trashValue >= 30 ) {
             marker.setIconTintColor(Color.YELLOW);
-        } else {
+        } else if (trashValue < 30  && trashValue >= 10){
             marker.setIconTintColor(Color.RED);
-            Toast.makeText(this, "현재 시청 하수구의 포화량이 "+trashValue+"입니다. 쓰레기를 수거하세요.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "현재 시청 하수구의 포화량이 "+(100 - trashValue)+"입니다. 쓰레기를 수거하세요.", Toast.LENGTH_LONG).show();
         }
     }
 }
