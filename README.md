@@ -14,20 +14,20 @@
   - 기존 시스템과 대비된 반자동화 시스템
   [기존 시스템 링크](https://me.go.kr/home/web/board/read.do?pagerOffset=0&maxPageItems=10&maxIndexPages=10&searchKey=&searchValue=&menuId=&orgCd=&boardId=1672610&boardMasterId=1&boardCategoryId=&decorator=)
 
-  APP 실행 초기화면
+  <br> APP 실행 초기화면 <br>
   ![image](https://github.com/user-attachments/assets/2fe39c2b-0586-4b10-ab73-ee67a7ad7d61)
 
 
   - 네이버 지도 UI를 활용하여 하수구의 실제 위치를 마커로 표시하고 클릭하여 관리할 수 있게 구현
 
-  마커를 눌렀을 때 실행화면
+  <br> 마커를 눌렀을 때 실행화면 <br>
   ![image](https://github.com/user-attachments/assets/7c1b5779-25b8-4b98-a092-6acce32ae17f)
 
 
   - 적외선 센서로 그물에 투하된 쓰레기의 포화량을 확인하여 관리자에게 실시간으로 확인할 수 있게 구현
   - 그물을 수거하거나 특정 상황을 위해 수동으로 하수구 문을 개폐할 수 있도록 구현
     
-  시스템 구조도
+  <br> 시스템 구조도 <br>
   ![image](https://github.com/user-attachments/assets/98661792-f287-4a1e-9052-dd1eb87706ec)
  
  
