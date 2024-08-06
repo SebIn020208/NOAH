@@ -29,5 +29,12 @@
     
   <br> 시스템 구조도 <br>
   ![image](https://github.com/user-attachments/assets/98661792-f287-4a1e-9052-dd1eb87706ec)
+
+  <br> 프로토타입 이미지 <br>
+  ![image](https://github.com/user-attachments/assets/82f8ce00-d179-44b1-ab71-e8ea10ec7592)
+
  
  
+  개선 할 사항
+
+  - 하수구에 GPS를 설치하여 다수의 하수구 좌표값을 입력받아 마커로 표시하는 기능
